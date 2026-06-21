@@ -7,7 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MR Developers</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  
+  
   <style>
+
+    /*This import for (Fun play) Font style*/
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+
+    /*This code for (Fun play) effect*/
+    :root{--marquee: #FFC857;}
+    .brand{font-family:'Press Start 2P', monospace;font-size: 1.1rem;color: var(--marquee);text-shadow: 0 0 8px rgba(255,200,87,0.5);animation: flicker 1.0s infinite;}
+    @keyframes flicker{0%, 93%, 100% { opacity: 1; }94% { opacity: 0.55; }95% { opacity: 1; }96% { opacity: 0.4; }97% { opacity: 1; }}
+    
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
       --bg: #000; --ink: #f0f0f0; --muted: #999;
@@ -632,7 +643,7 @@
 
         <div class="card-media-overlay"></div>
         <p class="project-tag">Web App</p>
-        <h3>Fun play</h3>
+        <h3><div class="brand">Fun play</div></h3>
         <p>It's a online gaming side, With many instant playable games. Developed by -MR Developers-</p>
         <a href="https://ihsha.github.io/online-games" class="project-link">View project &rarr;</a>
       </div>
