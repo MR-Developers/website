@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MR Developers</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
-  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
   
   <style>
 
@@ -19,6 +19,10 @@
     :root{--marquee: #FFC857;}
     .brand{font-family:'Press Start 2P', monospace;font-size: 1.1rem;color: var(--marquee);text-shadow: 0 0 8px rgba(255,200,87,0.5);animation: flicker 1.0s infinite;}
     @keyframes flicker{0%, 93%, 100% { opacity: 1; }94% { opacity: 0.55; }95% { opacity: 1; }96% { opacity: 0.4; }97% { opacity: 1; }}
+
+    /*StreamTAB logo style*/
+    .logo {font-family: 'Montserrat', sans-serif;font-size: 1.5rem;color: #ffffff;font-weight: 800;letter-spacing: -0.5px;text-decoration: none;display: flex;align-items: baseline;}
+    .logo span {color: #e11d48;}
     
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -649,7 +653,7 @@
 
         <div class="card-media-overlay"></div>
         <p class="project-tag">Web App</p>
-        <h3><div class="brand">Fun play</div></h3>
+        <h3><div class="brand">Fun play</div></h3><br>
         <p>It's a online gaming side, With many instant playable games. Developed by -MR Developers-</p>
         <a href="https://ihsha.github.io/online-games" class="project-link">View project &rarr;</a>
       </div>
@@ -672,7 +676,7 @@
 
         <div class="card-media-overlay"></div>
         <p class="project-tag">Mobile application</p>
-        <h3>MR Location</h3>
+        <h3>MR Location</h3><br>
         <p>Fake your GPS location with a simple, fast, and reliable location spoofing app.</p>
         <a href="https://play.google.com/store/apps/details?id=com.mrdevelopers.mrlocation" class="project-link">Get in Play store &rarr;</a>
       </div>
@@ -695,7 +699,7 @@
 
         <div class="card-media-overlay"></div>
         <p class="project-tag">Movies streaming</p>
-        <h3>StreamTAB</h3>
+        <a class="logo"><div>Stream<span>TAB</span></div></a><br>
         <p>Watch free hit movies and premium TV series anytime with absolutely no subscription required.</p>
         <a href="https://ihsha.github.io/StreamTAB" class="project-link">start watching now &rarr;</a>
       </div>
